@@ -1,0 +1,15 @@
+[package]
+name = "docuforge-core"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+docuforge-jobs.workspace = true
+docuforge-pdf.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+
+[dev-dependencies]
+lopdf.workspace = true
+tempfile.workspace = true
