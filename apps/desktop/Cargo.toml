@@ -1,0 +1,14 @@
+[package]
+name = "docuforge"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+dioxus.workspace = true
+docuforge-core.workspace = true
+rfd.workspace = true
+
+[features]
+default = ["desktop"]
+desktop = ["dioxus/desktop"]

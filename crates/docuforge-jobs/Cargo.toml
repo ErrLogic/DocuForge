@@ -1,0 +1,9 @@
+[package]
+name = "docuforge-jobs"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+thiserror.workspace = true
+tokio.workspace = true
